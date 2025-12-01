@@ -57,21 +57,12 @@ CodeQuest is an educational puzzle game that teaches programming fundamentals th
 - Pause screen with overlay
 - GUI framework for menus and dialogues
 
-### In Development
-
-**Command Parser** (Primary Focus)
+**Command Parser** 
 - Text input field for typing commands
 - Python-style command execution system
 - Command validation and error handling
 
 ### Planned Features
-
-**Phase 1: Command System**
-- Basic movement commands: `player.move()`, `player.moveTo(x, y)`
-
-**Phase 2: Programming Concepts**
-- Variables: 
-- Loops: 
 
 **Phase 3: Level Design**
 - Progressive tutorial levels
@@ -144,7 +135,7 @@ Maps are stored as text files with space-separated tile indices:
 ### Creating Custom Maps
 
 1. Create new text file in `/res/Maps/`
-2. Format: 25 columns × 25 rows
+2. Format: 50 columns × 50 rows
 3. Use space-separated integers (0 for grass)
 4. Load in TileManager: `loadMap("/CodeQuest/res/Maps/YourMap.txt")`
 
@@ -333,11 +324,11 @@ CodeQuest_finalVErsion/
 - [x] Pause functionality
 
 ### Phase 2: Command System (IN PROGRESS)
-- [ ] Text input field UI
-- [ ] Command parser implementation
-- [ ] String-based command matching
-- [ ] Basic command set (move, interact)
-- [ ] Error handling
+- [x] Text input field UI
+- [x] Command parser implementation
+- [x] String-based command matching
+- [x] Basic command set (move, interact)
+- [x] Error handling
 
 ### Phase 3: Graphics Enhancement (COMPLETED)
 - [x] Source or create 32x32+ sprites
