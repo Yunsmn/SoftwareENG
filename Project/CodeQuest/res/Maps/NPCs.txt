@@ -1,0 +1,5 @@
+NPC 25 25 true Hello adventurer! Welcome to CodeQuest World Where you need to collect the 4 keys to open the chests and to win! follow the path and click on help.
+NPC 7 4 true you found a key, now go back and open the chest
+NPC 46 10 true you found a key, now go back and open the chest
+NPC 4 47 true you found a key, now go back and open the chest
+NPC 41 45 true you found a key, now go back and open the chest
